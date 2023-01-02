@@ -1,0 +1,28 @@
+{
+  "HALProvider": {
+    "RoboRIO": {
+      "RoboRIO Input": {
+        "open": true
+      }
+    }
+  },
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/ControlSubsystem": "Subsystem",
+      "/LiveWindow/DriveSubsystem": "Subsystem",
+      "/LiveWindow/FlyWheelSubsystem": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/SmartDashboard/Left Motor 1": "Motor Controller",
+      "/SmartDashboard/Left Motor 2": "Motor Controller",
+      "/SmartDashboard/Right Motor 1": "Motor Controller",
+      "/SmartDashboard/Right Motor 2": "Motor Controller"
+    }
+  },
+  "NetworkTables": {
+    "SmartDashboard": {
+      "open": true
+    }
+  }
+}
